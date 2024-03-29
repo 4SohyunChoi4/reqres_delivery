@@ -1,9 +1,9 @@
-version: 0.2 
+version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "user11-delivery"
-   
+    _PROJECT_NAME: "user35-delivery"
+
 phases:
   install:
     runtime-versions:
@@ -93,9 +93,6 @@ phases:
                       periodSeconds: 5
                       failureThreshold: 5
           EOF
-
 cache:
   paths:
     - '/root/.m2/**/*'
-
-    
